@@ -1,0 +1,12 @@
+{
+  "name": "vibe-coding-shopping-mall-demo",
+  "private": true,
+  "description": "Shopping mall monorepo (client + server)",
+  "scripts": {
+    "postinstall": "npm install --prefix server",
+    "start": "npm --prefix server start"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
